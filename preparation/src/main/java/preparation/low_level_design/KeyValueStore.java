@@ -56,7 +56,7 @@ public class KeyValueStore {
     }
 }
 
-public class KeyValuePair {
+class KeyValuePair {
     final String key;
     final String value;
     long createdTime;
@@ -69,12 +69,14 @@ public class KeyValuePair {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (obj == null || getClass() != obj.getClass()) return false;
+        if (this == obj)
+            return true;
+        if (obj == null || getClass() != obj.getClass())
+            return false;
         KeyValuePair that = (KeyValuePair) obj;
         return createdTime == that.createdTime &&
-            java.util.Objects.equals(key, that.key) &&
-            java.util.Objects.equals(value, that.value);
+                java.util.Objects.equals(key, that.key) &&
+                java.util.Objects.equals(value, that.value);
     }
 
     @Override

@@ -8,7 +8,7 @@ public interface RateLimiter {
     boolean allowRequest(String clientId);
 }
 
-public class BucketBasedRateLimiter implements RateLimiter {
+class BucketBasedRateLimiter implements RateLimiter {
 
     private final Map<String, ClientBucket> map;
     private final int refillRatePerSec;

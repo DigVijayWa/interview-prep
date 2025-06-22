@@ -1,3 +1,11 @@
 preparation/dsa/TwoSum.class
+preparation/low_level_design/KeyValuePair.class
+preparation/low_level_design/BucketBasedRateLimiter.class
+preparation/low_level_design/AsyncLogger.class
+preparation/low_level_design/KeyValueStore.class
 preparation/dsa/RemoveDuplicates.class
 preparation/dsa/DSARunner.class
+preparation/low_level_design/RateLimiter.class
+preparation/low_level_design/ClientBucket.class
+preparation/low_level_design/LogLevel.class
+preparation/low_level_design/LogMessage.class

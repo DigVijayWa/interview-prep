@@ -11,7 +11,6 @@ public class RemoveDuplicates {
                 int index = i;
                 while(i < max && temp == nums[i]) {
                     i++;
-                    count++;
                 }
                 int step = i;
                 while(index < max && step < max) {
