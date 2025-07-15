@@ -1,118 +1,59 @@
-# interview-prep
+## LeetCode Problem Patterns
 
-A comprehensive Java project for preparing Data Structures & Algorithms (DSA) and Low-Level Design (LLD) interview questions. This repository contains well-structured code examples, reusable utilities, and runnable demos to help you practice and master key concepts for technical interviews.
-
-## Table of Contents
-
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [How to Run](#how-to-run)
-- [Contents](#contents)
-  - [DSA](#dsa)
-  - [Low-Level Design](#low-level-design)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
-## Project Structure
-
-```
-preparation/
-  pom.xml
-  src/
-    main/
-      java/
-        preparation/
-          dsa/
-            DSARunner.java
-            RemoveDuplicates.java
-            TwoSum.java
-          low_level_design/
-            KeyValueStore.java
-            RateLimiter.java
-    test/
-      java/
-        preparation/
-          dsa/
-target/
-  preparation-1.0-SNAPSHOT.jar
-```
-
-- `dsa/`: Data Structures and Algorithms problems and solutions.
-- `low_level_design/`: Low-Level Design patterns and implementations.
-- `test/`: Unit tests for DSA and LLD modules.
-
----
-
-## Getting Started
-
-### Prerequisites
-
-- Java 8 or higher
-- Maven 3.x
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/interview-prep.git
-   cd interview-prep/preparation
-   ```
-
-2. Build the project using Maven:
-   ```bash
-   mvn clean install
-   ```
-
----
-
-## How to Run
-
-### Run All DSA Demos
-
-```bash
-mvn exec:java -Dexec.mainClass="preparation.dsa.DSARunner"
-```
-
-### Run a Specific Class
-
-You can run any class with a `main` method, for example:
-
-```bash
-mvn exec:java -Dexec.mainClass="preparation.dsa.TwoSum"
-```
-
----
-
-## Contents
-
-### DSA
-
-- `TwoSum.java`: Classic Two Sum problem.
-- `RemoveDuplicates.java`: Remove duplicates from arrays.
-- `DSARunner.java`: Entry point to run DSA demos.
-
-### Low-Level Design
-
-- `KeyValueStore.java`: Simple in-memory key-value store.
-- `RateLimiter.java`: Basic rate limiter implementation.
-
----
-
-## Contributing
-
-Contributions are welcome! Please open issues or submit pull requests for new problems, solutions, or improvements.
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes.
-4. Push to your fork and submit a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](../LICENSE) file for details.
+* [ ] Two Sum (Array + HashMap, Easy)
+* [ ] Subarray Sum Equals K (Array + HashMap, Medium)
+* [ ] Longest Consecutive Sequence (Array + HashMap, Medium)
+* [ ] Group Anagrams (Array + HashMap, Medium)
+* [ ] Longest Substring Without Repeating Characters (Sliding Window, Medium)
+* [ ] Minimum Size Subarray Sum (Sliding Window, Medium)
+* [ ] Longest Repeating Character Replacement (Sliding Window, Medium)
+* [ ] Minimum Window Substring (Sliding Window, Hard)
+* [ ] 3Sum (Two Pointers, Medium)
+* [ ] Container With Most Water (Two Pointers, Medium)
+* [ ] Two Sum II – Sorted Input (Two Pointers, Easy)
+* [ ] Sort Colors (Dutch National Flag) (Two Pointers, Medium)
+* [ ] Linked List Cycle I (Fast/Slow Pointers, Easy)
+* [ ] Linked List Cycle II (Fast/Slow Pointers, Medium)
+* [ ] Happy Number (Fast/Slow Pointers, Easy)
+* [ ] Find the Duplicate Number (Fast/Slow Pointers, Hard)
+* [ ] Merge Intervals (Overlapping Intervals, Medium)
+* [ ] Insert Interval (Overlapping Intervals, Medium)
+* [ ] Non-overlapping Intervals (Overlapping Intervals, Medium)
+* [ ] Meeting Rooms II (Overlapping Intervals, Medium)
+* [ ] Search in Rotated Sorted Array (Binary Search, Medium)
+* [ ] Find Minimum in Rotated Sorted Array (Binary Search, Medium)
+* [ ] Koko Eating Bananas (Binary Search, Medium)
+* [ ] Capacity To Ship Packages (Binary Search, Medium)
+* [ ] Zero Sum Subarray Detection (Prefix Sum, Medium)
+* [ ] Count Subarrays with Sum = K (Prefix Sum, Medium)
+* [ ] Equilibrium Index (Prefix Sum, Easy)
+* [ ] Range Sum Query - Immutable (Prefix Sum, Easy)
+* [ ] Maximum Subarray (Kadane’s) (Dynamic Programming, Easy)
+* [ ] House Robber (Dynamic Programming, Medium)
+* [ ] Longest Palindromic Substring (Dynamic Programming, Medium)
+* [ ] Coin Change (Dynamic Programming, Medium)
+* [ ] Daily Temperatures (Monotonic Stack, Medium)
+* [ ] Largest Rectangle in Histogram (Monotonic Stack, Hard)
+* [ ] Next Greater Element I (Monotonic Stack, Easy)
+* [ ] Sliding Window Maximum (Monotonic Stack, Hard)
+* [ ] Number of Islands (Graph, Medium)
+* [ ] Course Schedule (Graph, Medium)
+* [ ] Word Ladder (Graph, Hard)
+* [ ] Shortest Path in Binary Matrix (Graph, Medium)
+* [ ] Top K Frequent Elements (Heap / Top-K, Medium)
+* [ ] Merge K Sorted Lists (Heap / Top-K, Hard)
+* [ ] Median from Data Stream (Heap / Top-K, Hard)
+* [ ] Sliding Window Median (Heap / Top-K, Hard)
+* [ ] Permutations (Backtracking, Medium)
+* [ ] Combination Sum (Backtracking, Medium)
+* [ ] Subsets (Backtracking, Medium)
+* [ ] Generate Parentheses (Backtracking, Medium)
+* [ ] Valid Parentheses (String / Trie, Easy)
+* [ ] Word Search (String / Trie, Medium)
+* [ ] Implement Trie (String / Trie, Medium)
+* [ ] KMP Pattern Matching (String / Trie, Hard)
+* [ ] Single Number (Bit Manipulation, Easy)
+* [ ] Missing Number (Bit Manipulation, Easy)
+* [ ] Counting Bits (Bit Manipulation, Easy)
 
 ---
